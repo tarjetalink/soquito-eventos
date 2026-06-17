@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Soquito Eventos | Tarjeta Digital</title>
     <!-- Favicon de la marca -->
-    <link rel="icon" type="image/png" href="https://i.postimg.cc/qMck6QZW/Chat-GPT-Image-17-jun-2026-10-21-35.png">
+    <link class="favicon" rel="icon" type="image/png" href="https://i.postimg.cc/qMck6QZW/Chat-GPT-Image-17-jun-2026-10-21-35.png">
     <!-- Tailwind CSS con soporte para configuración personalizada -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -63,8 +63,8 @@
         .wave-clip {
             clip-path: url(#wave-shape);
         }
-        .modal-content-scroll {
-             max-height: 85vh;
+        .modal-content-scroll { 
+             max-height: 85vh; 
              overflow-y: auto;
         }
         .carousel-track {
@@ -171,7 +171,7 @@
                     
                     <!-- WhatsApp -->
                     <a href="https://wa.me/573503811359" target="_blank" class="text-center group w-18">
-                        <div class="w-14 h-14 mx-auto flex items-center justify-center bg-white rounded-full mb-1.5 shadow-md border border-brandCream-200 group-hover:scale-110 group-hover:border-green-400 group-hover:text-green-500 transition-all duration-300 text-slate-600">
+                        <div class="w-14 h-14 mx-auto flex items-center justify-center bg-white rounded-full mb-1.5 shadow-md border border-brandCream-200 group-hover:scale-110 group-hover:border-green-400 group-hover:text-green-500 transition-all duration-300 text-slate-600"> 
                              <svg class="w-7 h-7" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                                 <path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.31 20.6C8.75 21.42 10.36 21.88 12.04 21.88C17.5 21.88 21.95 17.43 21.95 11.97C21.95 9.31 20.95 6.8 19.05 4.9C17.15 3.00 14.65 2 12.04 2M12.04 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.71 20.28 11.92C20.28 16.46 16.65 20.21 12.04 20.21C10.56 20.21 9.14 19.83 7.89 19.11L7.55 18.93L4.44 19.8L5.33 16.78L5.15 16.44C4.38 15.09 4.00 13.57 4.00 11.97C4.00 7.43 7.63 3.67 12.04 3.67M9.23 7.53C9.07 7.53 8.81 7.59 8.61 7.9C8.41 8.21 7.81 8.78 7.81 9.84C7.81 10.9 8.63 11.92 8.79 12.11C8.95 12.31 10.16 14.11 11.96 14.82C13.76 15.54 14.34 15.36 14.73 15.3C15.12 15.24 16.03 14.73 16.22 14.19C16.42 13.65 16.42 13.2 16.32 13.04C16.22 12.88 16.06 12.78 15.82 12.66C15.58 12.54 14.53 12.04 14.33 11.96C14.13 11.88 13.99 11.82 13.85 12.06C13.71 12.3 13.28 12.8 13.14 12.96C13 13.12 12.86 13.16 12.62 13.04C12.38 12.92 11.69 12.69 10.84 11.95C10.15 11.35 9.68 10.6 9.54 10.34C9.4 10.08 9.53 9.94 9.65 9.82C9.77 9.7 9.93 9.5 10.09 9.34C10.25 9.18 10.31 9.04 10.45 8.8C10.59 8.56 10.53 8.38 10.43 8.22C10.33 8.06 9.83 7.53 9.63 7.53H9.23Z"></path>
                              </svg>
@@ -193,7 +193,7 @@
                     <a href="mailto:alvarezamayaviviana@gmail.com" class="text-center group w-18">
                         <div class="w-14 h-14 mx-auto flex items-center justify-center bg-white rounded-full mb-1.5 shadow-md border border-brandCream-200 group-hover:scale-110 group-hover:border-red-400 group-hover:text-red-500 transition-all duration-300 text-slate-600">
                              <svg class="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L22 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L22 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
                              </svg>
                         </div>
                         <span class="text-[11px] font-semibold tracking-tight text-slate-600">Correo</span>
@@ -230,12 +230,14 @@
                     </a>
 
                     <!-- Ubicación -->
-                    <a href="https://www.google.com/maps/search/?api=1&query=Bogota+Colombia" target="_blank" class="text-center group w-18">
+                    <a href="#" id="location-button" class="text-center group w-18">
                         <div class="w-14 h-14 mx-auto flex items-center justify-center bg-white rounded-full mb-1.5 shadow-md border border-brandCream-200 group-hover:scale-110 group-hover:border-red-400 group-hover:text-red-500 transition-all duration-300 text-slate-600">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                            </svg>
+                            <!-- Nueva Imagen de Ubicación con tamaño aumentado (w-10 h-10) y hover compatible -->
+                            <img 
+                                src="https://i.postimg.cc/xjssyps1/Chat-GPT-Image-17-jun-2026-13-46-02.png" 
+                                alt="Ubicación" 
+                                class="w-10 h-10 object-contain transition-all duration-300"
+                            >
                         </div>
                         <span class="text-[11px] font-semibold tracking-tight text-slate-600">Ubicación</span>
                     </a>
@@ -249,17 +251,14 @@
                         </div>
                         <span class="text-[11px] font-semibold tracking-tight text-slate-600">Código QR</span>
                     </a>
-
                 </div>
-
             </main>
         </div>
-        
+
         <!-- Pie de página de la tarjeta -->
         <footer class="text-center py-4 border-t border-brandCream-200/50 bg-brandCream-100/50">
             <p class="font-dancing-script text-2xl text-brandRose-500 font-bold">Uniendo corazones con sabor</p>
         </footer>
-
     </div>
 
     <!-- MODAL 1: Solicitud de Cotización (Hacer Pedido) -->
@@ -330,7 +329,6 @@
 
             <!-- Grilla de Servicios de Soquito Eventos -->
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                
                 <!-- Tarjeta 1: Postres -->
                 <div class="bg-brandCream-100 p-5 rounded-2xl border border-brandGold-100 flex flex-col justify-between">
                     <div>
@@ -395,7 +393,6 @@
                         </ul>
                     </div>
                 </div>
-
             </div>
 
              <!-- CTA Final -->
@@ -422,7 +419,7 @@
             
             <div class="space-y-4 text-xs">
                 <!-- iOS -->
-                <div class="bg-brandCream-100 p-3.5 rounded-xl border border-brandGold-100">
+                <div class="bg-brandCream-100/100 p-3.5 rounded-xl border border-brandGold-100">
                     <h4 class="font-bold text-brandGold-600 flex items-center mb-1">
                         📱 Para iPhone (iOS)
                     </h4>
@@ -515,6 +512,39 @@
             <div class="p-2 border border-brandGold-100 bg-white shadow-inner rounded-xl inline-block">
                 <img id="qr-code-img" src="" alt="Código QR Soquito Eventos" class="w-44 h-44">
             </div>
+        </div>
+    </div>
+
+    <!-- MODAL 7: Cobertura de Ubicación -->
+    <div id="location-modal" class="fixed inset-0 bg-black bg-opacity-60 backdrop-blur-sm flex items-center justify-center p-4 hidden z-50 opacity-0 transition-opacity duration-300">
+        <div class="bg-white rounded-2xl shadow-2xl p-6 max-w-xs w-full text-center relative transform transition-all duration-300 scale-95 opacity-0 border-t-4 border-brandGold-500" id="location-modal-content">
+            <!-- Botón para cerrar (Cruz) -->
+            <button id="close-location-modal-btn" class="absolute top-4 right-4 text-gray-400 hover:text-brandRose-500 transition-colors">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" /></svg>
+            </button>
+            
+            <h3 class="text-2xl font-bold text-brandRose-500 mb-2 font-dancing-script">📍 Cobertura Soquito Eventos</h3>
+            <p class="text-xs text-gray-500 mb-4">Atendemos pedidos para eventos y servicio de comidas en:</p>
+            
+            <div class="text-left space-y-1 bg-brandCream-50 p-4 rounded-xl border border-brandGold-100/30 text-xs text-slate-700 font-medium">
+                <div>✅ Medellín</div>
+                <div>✅ Bello</div>
+                <div>✅ Itagüí</div>
+                <div>✅ Envigado</div>
+                <div>✅ Sabaneta</div>
+                <div>✅ La Estrella</div>
+                <div>✅ Copacabana</div>
+                <div>✅ Girardota</div>
+                <div>✅ Barbosa</div>
+                <div>✅ Caldas</div>
+            </div>
+            
+            <p class="text-[10px] text-gray-400 mt-4 italic">*Cobertura sujeta a disponibilidad y tipo de evento.*</p>
+            
+            <!-- Botón inferior para Cerrar -->
+            <button id="close-location-modal-bottom-btn" class="mt-4 w-full py-2 bg-gradient-to-r from-brandRose-500 to-brandRose-600 text-white font-bold rounded-full text-xs shadow-md hover:scale-102 transition-all duration-300">
+                Cerrar
+            </button>
         </div>
     </div>
 
@@ -726,8 +756,8 @@
 
             const galleryController = setupModal(galleryButton, galleryModal, galleryModalContent, closeGalleryModalBtn, () => {
                 setTimeout(() => {
-                    updateCarousel(false); 
-                }, 80);
+                    updateCarousel(false);
+                 }, 80);
             });
             
             setupCarousel();
@@ -772,6 +802,19 @@
             
             setupModal(scheduleButton, scheduleModal, scheduleModalContent, closeScheduleModalBtn, updateOpeningStatus);
 
+            // --- Modal de Cobertura / Ubicación ---
+            const locationButton = document.querySelector('#location-button');
+            const locationModal = document.querySelector('#location-modal');
+            const locationModalContent = document.querySelector('#location-modal-content');
+            const closeLocationModalBtn = document.querySelector('#close-location-modal-btn');
+            const closeLocationModalBottomBtn = document.querySelector('#close-location-modal-bottom-btn');
+
+            const locationController = setupModal(locationButton, locationModal, locationModalContent, closeLocationModalBtn);
+
+            if (closeLocationModalBottomBtn) {
+                closeLocationModalBottomBtn.addEventListener('click', locationController.hide);
+            }
+
             // --- Lógica para Guardar Contacto (VCF) ---
             const saveContactBtn = document.querySelector('#save-contact-button');
             
@@ -799,6 +842,7 @@
                 { modal: installModal, hide: installController.hide },
                 { modal: orderModal, hide: orderController.hide },
                 { modal: galleryModal, hide: galleryController.hide },
+                { modal: locationModal, hide: locationController.hide },
                 { modal: scheduleModal, hide: () => {
                     const content = document.getElementById('schedule-modal-content');
                     content.classList.add('scale-95', 'opacity-0');
@@ -825,6 +869,5 @@
             document.addEventListener('keydown', handleEscapeKey);
         });
     </script>
-
 </body>
 </html>
